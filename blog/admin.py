@@ -1,3 +1,4 @@
-from django.contrib import admin
+from django.contrib import admin #importar Libreria admin de Django
+from .models import Post #importa modelo Post que yo cree
 
-# Register your models here.
+admin.site.register(Post) 
